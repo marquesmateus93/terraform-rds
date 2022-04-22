@@ -1,14 +1,14 @@
 # Terraform RDS
 
-## About:
+## About
 
 This module creates a Default MySQL instance in Amazon RDS service.
 
-## How To Deploy:
+## How To Deploy
 
 This module should be consumed by [Terragrunt App Demo](https://github.com/Dev-Marques-Ops-Live-Infrastructure/terragrunt-app-demo) Project.
 
-## Security:
+## Security
 
 - **MySQL Instance:** Restricted access from application hosties IP range with 3306 port.
 
