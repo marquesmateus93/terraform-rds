@@ -16,6 +16,11 @@ variable "username" {
   default     = "app_demo_user"
 }
 
+variable "secrets_manager_id" {
+  description = "Secret Manager ID."
+  type        = string
+  default     = ""
+}
 
 #variable "password" {
 #  description = "Database user password"
